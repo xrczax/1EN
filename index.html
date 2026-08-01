@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1EN - Premium Shoe Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">👟</span>
+                <span class="logo-text">1EN</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="icon-btn" aria-label="Search">🔍</button>
+                <button class="icon-btn cart-btn" aria-label="Cart">
+                    🛒 <span class="cart-count">3</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="hero-tag">NEW COLLECTION 2025</span>
+            <h1>Step Into <span class="highlight">Style</span></h1>
+            <p>Discover premium footwear designed for comfort, performance, and everyday elegance. Free shipping on orders over $100.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-shoe">👟</div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <div class="category-item active">All</div>
+        <div class="category-item">Running</div>
+        <div class="category-item">Casual</div>
+        <div class="category-item">Sports</div>
+        <div class="category-item">Formal</div>
+        <div class="category-item">Boots</div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products-section" id="products">
+        <div class="section-header">
+            <h2>Featured Products</h2>
+            <p>Handpicked selections from our latest collection</p>
+        </div>
+
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">👟</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Running</span>
+                    <h3 class="product-name">Air Runner Pro</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(128)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$129.99</span>
+                            <span class="old-price">$159.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-badge sale">-30%</div>
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">👞</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Formal</span>
+                    <h3 class="product-name">Classic Oxford</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="review-count">(89)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$89.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">🥾</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Boots</span>
+                    <h3 class="product-name">Trail Blazer Boot</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(215)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$179.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-badge hot">HOT</div>
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">👟</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Sports</span>
+                    <h3 class="product-name">Court Master X</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(342)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$149.99</span>
+                            <span class="old-price">$189.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">👠</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Formal</span>
+                    <h3 class="product-name">Elegance Heel</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="review-count">(76)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$99.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">👟</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Casual</span>
+                    <h3 class="product-name">Urban Sneaker</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(198)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$79.99</span>
+                            <span class="old-price">$99.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">🩰</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Casual</span>
+                    <h3 class="product-name">Ballet Flow</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="review-count">(54)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$59.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-badge sale">-25%</div>
+                <button class="wishlist-btn">♡</button>
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="shoe-emoji">👟</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Running</span>
+                    <h3 class="product-name">Speed Flex 3.0</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(267)</span>
+                    </div>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price">$139.99</span>
+                            <span class="old-price">$189.99</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>Free Shipping</h3>
+            <p>On all orders over $100</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">↩️</div>
+            <h3>Easy Returns</h3>
+            <p>30-day return policy</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure Payment</h3>
+            <p>100% secure checkout</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>24/7 Support</h3>
+            <p>Always here to help</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3 class="footer-logo">👟 SoleMate</h3>
+                <p>Your destination for premium footwear. Style meets comfort in every step.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Men's Shoes</a></li>
+                    <li><a href="#">Women's Shoes</a></li>
+                    <li><a href="#">Kids' Shoes</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Newsletter</h4>
+                <p>Subscribe for exclusive offers</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email">
+                    <button>Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SoleMate. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
